@@ -4,8 +4,8 @@
 
 .custom-image {
     background-image: url(/serverroom.jpg);
-    }
-      
+}
+
 .custom-overlay::after {
     content: "";
     background: rgba(0, 0, 0, 0.7); /* Adjust the 0.5 value to change the opacity */
@@ -14,4 +14,5 @@
     right: 0;
     bottom: 0;
     left: 0;
-    }
+}
+    
