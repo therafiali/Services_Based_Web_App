@@ -39,6 +39,55 @@ export default function HeroSection() {
 
 import { CSSProperties } from "react";
 
+// const MyComponent = () => {
+//   const style: CSSProperties = {
+//     backgroundImage: "url(/serverroom.jpg)",
+//     backgroundSize: "cover",
+//     width: "100%",
+//     height: "100vh",
+//     display: "flex",
+//     justifyContent: "center",
+//     alignItems: "center",
+//     position: "relative",
+//     overflow: "hidden",
+//   };
+
+//   const overlayStyle: CSSProperties = {
+//     backgroundColor: "rgba(173, 216, 230, 0.5)", // light blue color with 50% opacity
+//     position: "absolute",
+//     top: 0,
+//     left: 0,
+//     right: 0,
+//     bottom: 0,
+//     display: "flex",
+//     justifyContent: "center",
+//     alignItems: "center",
+//   };
+
+//   return (
+//     <div style={style}>
+//       <div style={overlayStyle}>
+//        <div className="space-y-14">
+//        <div className="flex flex-col justify-center items-center mx-auto">
+//             <h1 className="text-6xl font-extrabold tracking-wide text-black">
+//             We provide IT & Business Solutions
+//           </h1>
+//         </div>
+//         <div className="">
+//           <h1 className="text-6xl font-extrabold tracking-wide text-black">
+//             <TypeWriter />
+//           </h1>
+//         </div>
+//         <p className="flex justify-center items-center py-6 scroll-m-20 text-xl font-normal tracking-tight text-black max-w-md text-center mx-auto">
+//           Outlived no dwelling denoting in peculiar as he believed. Behaviour
+//           excellent middleton be as it curiosity departure ourselves very
+//           extreme future.
+//         </p>
+//        </div>
+//       </div>
+//     </div>
+//   );
+// };
 const MyComponent = () => {
   const style: CSSProperties = {
     backgroundImage: "url(/serverroom.jpg)",
