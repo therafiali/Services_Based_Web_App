@@ -12,7 +12,7 @@ const Navbar = () => {
                 </Link>
 
                 <ul className="flex space-x-4  mt-[-1.2rem]">
-                    {['HOME', 'ABOUT US', 'CONTACT US'].map((item) => (
+                    {['SERVICES', 'ABOUT US', 'CONTACT US'].map((item) => (
                         <li key={item}>
 
                             {/* <h2 className="hover:text-[#FFAB00]">{item}</h2> */}
