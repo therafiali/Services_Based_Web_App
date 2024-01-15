@@ -7,7 +7,7 @@ import Services_Items from '@/components/view/Services_Items'
 export default function Home() {
   return (
     <main>
-      {/* <Hero /> */}
+      <Hero />
       <Services />
       <Services_Items/>
 
