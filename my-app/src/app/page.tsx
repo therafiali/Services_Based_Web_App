@@ -1,13 +1,15 @@
 import Hero from '@/components/view/Hero'
 import Services from '@/components/view/Services'
+import Services_Items from '@/components/view/Services_Items'
 
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      {/* <Hero /> */}
       <Services />
+      <Services_Items/>
 
     </main>
   )
