@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Heebo } from 'next/font/google'
 import './globals.css'
+import Navbar from "@/components/view/Navbar"
 
 const heebo = Heebo({ subsets: ['latin'] })
 
@@ -16,7 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={heebo.className}>{children}</body>
+      <body className={heebo.className}>
+        <Navbar/>
+        {children}</body>
     </html>
   )
 }
