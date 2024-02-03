@@ -71,7 +71,7 @@ const Services_Items = () => {
                 </Animation>
             </div>
             <div className='flex justify-between items-center mt-16 '>
-                <Animation delay={1} direction={'left'}>
+                <Animation delay={2} direction={'left'}>
                     <div className='space-y-8'>
 
                         <div className='flex flex-1 h-full items-start justify-center gap-x-3  p-6 bg-gray-200 border rounded-sm'>
@@ -101,7 +101,7 @@ const Services_Items = () => {
                         </div>
                     </div>
                 </Animation>
-                <Animation delay={1} direction={'right'}>
+                <Animation delay={2} direction={'right'}>
 
                     <div className='space-y-8'>
 
@@ -134,7 +134,7 @@ const Services_Items = () => {
                 </Animation>
             </div>
             <div className='flex justify-between items-center mt-16 '>
-                <Animation delay={1} direction={'left'}>
+                <Animation delay={2} direction={'left'}>
                     <div className='space-y-8'>
 
                         <div className='flex flex-1 h-full items-start justify-center gap-x-3  p-6 bg-gray-200 border rounded-sm'>
@@ -164,7 +164,7 @@ const Services_Items = () => {
                         </div>
                     </div>
                 </Animation>
-                <Animation delay={1} direction={'right'}>
+                <Animation delay={2} direction={'right'}>
 
                     <div className='space-y-8'>
 
