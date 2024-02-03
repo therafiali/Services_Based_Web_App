@@ -10,9 +10,7 @@ export default function Home() {
     <main>
       <Hero />
       <Services />
-      <Services_Items/>
-
-
+      <Services_Items />
     </main>
   )
 }

@@ -12,12 +12,14 @@ type Props = {
 const Animation = ({children,delay,direction}: Props) => {
 
     const ref=useRef(null)
-    const isInView=useInView(ref, {once:true})
+    const isInView=useInView(ref, {once:false})
     const controls=useAnimation()
 
     useEffect(()=>{
         if(isInView){
             controls.start("visible")
+        }else{
+            controls.set("hidden")
         }
     },[isInView,controls])
 
