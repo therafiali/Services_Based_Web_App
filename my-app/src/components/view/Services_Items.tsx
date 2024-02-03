@@ -72,7 +72,7 @@ const Services_Items = () => {
                         </div>
                     </Animation>
                 </div>
-                <div className='flex justify-between items-center mt-16 '>
+                <div className='flex md:flex-row justify-between items-center mt-16 '>
                     <Animation delay={2} direction={'left'}>
                         <div className='space-y-8'>
 
@@ -135,7 +135,7 @@ const Services_Items = () => {
                         </div>
                     </Animation>
                 </div>
-                <div className='flex justify-between items-center mt-16 '>
+                <div className='flex md:flex-row justify-between items-center mt-16 '>
                     <Animation delay={2} direction={'left'}>
                         <div className='space-y-8'>
 

@@ -17,18 +17,18 @@ const Outcome = () => {
         <div className=" flex gap-x-8 flex-col-reverse md:flex-row ">
           <div className="flex-1 flex justify-center">
 
-            <Animation delay={1} direction={'left'}>
+           
 
               {/* parent div */}
               <div className="">
                 {/* left side image */}
                 <Image src={girl} alt="profile" />
               </div>
-            </Animation>
+
           </div>
           <div className="flex-1">
 
-            <Animation delay={1} direction={'right'}>
+        
 
               <div className="flex-1  ">
                 {/* right side content */}
@@ -86,7 +86,7 @@ const Outcome = () => {
                   })}
                 </div>
               </div>
-            </Animation>
+     
           </div>
         </div>
       </Wrapper>
