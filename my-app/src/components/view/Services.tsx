@@ -1,8 +1,8 @@
-
+import Wrapper from '../shared/Wrapper'
 
 const Services = () => {
   return (
-    <div>
+    <Wrapper>
 
       <div className='mt-10 mb-10   mx-auto'>
         <h2 className=" text-center scroll-m-20  text-5xl font-bold tracking-normal first:mt-0 text-[#002060]">
@@ -16,7 +16,7 @@ const Services = () => {
 
       </div>
 
-    </div>
+    </Wrapper>
 
   )
 }

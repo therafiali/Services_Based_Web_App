@@ -19,7 +19,7 @@ const Animation = ({children,delay,direction}: Props) => {
         if(isInView){
             controls.start("visible")
         }else{
-            controls.set("hidden")
+            // controls.set("hidden")
         }
     },[isInView,controls])
 
