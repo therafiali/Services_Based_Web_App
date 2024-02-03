@@ -11,7 +11,7 @@ const Navbar = () => {
                     <Image src="/logo.png" alt="Digital Workspaces" width={150} height={50} />
                 </Link>
 
-                <ul className="flex space-x-4  mt-[-1.2rem]">
+                <ul className="hidden md:flex space-x-4  mt-[-1.2rem]">
                     {['SERVICES', 'ABOUT US', 'CONTACT US'].map((item) => (
                         <li key={item}>
 

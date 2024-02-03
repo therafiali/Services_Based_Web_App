@@ -37,7 +37,7 @@ const MyComponent = () => {
   return (
     <div style={style}>
       <div className="h-full w-full flex flex-col justify-center items-start " style={overlayStyle}>
-        <div className="space-y-14  ml-16 ">
+        <div className="space-y-5 md:space-y-14 mx-auto ml-5 md:ml-16 ">
           <div className="flex flex-col mx-auto max-w-[40rem] ">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-normal lg:text-6xl text-white ">
               Digital Technology Solutions, Consulting & Services

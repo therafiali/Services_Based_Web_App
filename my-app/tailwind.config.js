@@ -14,6 +14,8 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        'tablet': '536px',
+      // => @media (min-width: 640px) { ... }
       },
     },
     extend: {

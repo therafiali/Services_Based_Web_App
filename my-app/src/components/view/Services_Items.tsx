@@ -6,12 +6,12 @@ import Animation from '@/components/shared/Animation'
 
 const Services_Items = () => {
     return (
-        <section className='md:mr-20 md:ml-20 mt-10  '>
+        <section className='md:mr-20 md:ml-20 mt-10 sm:mt-1 '>
 
             <Wrapper>
                 <div className='space-y-5 md:space-y-0'>
 
-                    <div className='flex flex-col md:flex-row justify-between items-center mt-0 md:mt-16 gap-y-5 md:gap-y-0 border'>
+                    <div className='flex flex-col md:flex-row justify-between items-center mt-0 md:mt-16 gap-y-5 md:gap-y-0 '>
                         <Animation delay={1} direction={'left'}>
                             <div className='space-y-8'>
 
